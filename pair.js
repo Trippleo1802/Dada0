@@ -96,7 +96,7 @@ https://github.com/Trippleo1802/OBED-TECHX1
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "JawadTechX",
+title: "ObedTechX",
 thumbnailUrl: "https://raw.githubusercontent.com/JAWADXD55/JawadX/refs/heads/main/JAWAD.jpg",
 sourceUrl: "https://whatsapp.com/channel/0029Vb46YKVGehEEbFN3jH3I",
 mediaType: 1,
