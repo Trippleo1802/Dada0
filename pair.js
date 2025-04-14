@@ -75,30 +75,30 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "SUBZERO-MD~" + string_session;
+                        let md = "OBED-TECHX~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hello there KHAN MD User! 👋🏻* 
+                        let desc = `*Hello there OBED-TECH User! 👋🏻* 
 
 > Do not share your session id with anyone.
 
- *Thanks for using KHAN-MD 🚩* 
+ *Thanks for using OBED TECH 🚩* 
 
 > Join WhatsApp Channel :- ⤵️
  
-https://whatsapp.com/channel/0029VatOy2EAzNc2WcShQw1j
+https://whatsapp.com/channel/0029Vb46YKVGehEEbFN3jH3I
 
 Dont forget to fork the repo ⬇️
 
-https://github.com/JawadYTX/KHAN-AI
+https://github.com/Trippleo1802/OBED-TECHX1
 
-> *© Powered BY JawadTechX 🖤*`; 
+> *© Powered BY ObedTechX 🖤*`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
 title: "JawadTechX",
 thumbnailUrl: "https://raw.githubusercontent.com/JAWADXD55/JawadX/refs/heads/main/JAWAD.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VagQEmB002T7MWo3Sj1D",
+sourceUrl: "https://whatsapp.com/channel/0029Vb46YKVGehEEbFN3jH3I",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -112,9 +112,9 @@ renderLargerThumbnail: true
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "KHAN-MD",
+title: "OBED-TECH",
 thumbnailUrl: "https://raw.githubusercontent.com/JAWADXD55/JawadX/refs/heads/main/JAWAD.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VatOy2EAzNc2WcShQw1j",
+sourceUrl: "https://whatsapp.com/channel/0029Vb46YKVGehEEbFN3jH3I",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
