@@ -102,7 +102,7 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Hello there KHAN MD User! 👋🏻* 
+                            let desc = `*Hello there OBED-TECH User! 👋🏻* 
 
 > Do not share your session id with anyone.
 
